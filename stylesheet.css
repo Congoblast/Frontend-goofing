@@ -1,0 +1,61 @@
+/* header*/
+.HeaderText{
+  text-align: center;
+}
+.container-1{
+  display: flex; /* Using browsers flexbox*/
+}
+.container-1 div{
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+.box-1{
+flex:1;
+}
+.box-2{
+  flex:3;
+}
+
+.box-3{
+  flex:1;
+}
+
+/*Content */
+
+.container-2{
+  display: flex;
+}
+.container-2 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+.aside1{
+  text-align: center;
+  font-size: 80px;
+}
+
+.box-2{
+  flex:2;
+}
+.box-4{
+  flex:2;
+}
+/*Footer*/
+.container-3{
+display: flex;
+}
+.container-3 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+.box-6{
+  flex:1;
+}
+.FooterText{
+  text-align: center;
+}
+/*miscellaneous*/
+.High /*Just giving text bold tag*/
+{
+  font-weight: bold;
+}
